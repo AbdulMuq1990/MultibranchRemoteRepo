@@ -1,6 +1,6 @@
 node('built-in') 
 {
-    stage('ContinuousDownload_Master') 
+    stage('Continuous_Download_Master') 
 	{
     git 'https://github.com/AbdulMuq1990/MultibranchRemoteRepo.git'
 	}
